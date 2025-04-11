@@ -1,0 +1,11 @@
+.card-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+
+    h2 {
+        color: rgb(247, 208, 160);
+    }
+}

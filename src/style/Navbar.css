@@ -1,0 +1,58 @@
+.navbar {
+    background-color: rgb(85, 51, 19);
+    display: flex;
+    justify-content: space-between;
+    height: 6em;
+    align-items: center;
+    width: 100%;
+    color: rgb(247, 208, 160); 
+    font-size: 1em;
+
+    .logo {
+        display: flex;
+        align-items: center;
+        gap: 1em;
+
+        img {
+            width: 6em;
+            margin: 0 0 1em 3em;
+        }
+
+        h1 {
+            font-size: 1.8em;
+            margin-top: 0.1em;
+        }
+    }
+
+    .cart-display {
+        display: flex;
+        align-items: center;
+        margin-right: 5em;
+
+        img {
+            width: 4em;
+            margin-bottom: 0.5em;
+        }
+
+        .cart-count{
+            width: 1.2em;
+            height: 1.2em;
+            border-radius: 10px;
+            color: rgb(247, 208, 160);
+            font-size: 1.3em;
+        }
+    }
+
+    nav{
+        display: flex;
+        gap: 1.5em;
+   
+        .navlink {
+            color: inherit;
+            text-decoration-style: none;
+            font-size: 1.2em;
+        }
+    }
+ 
+
+}

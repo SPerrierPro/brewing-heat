@@ -1,0 +1,14 @@
+.wrong-way {
+    color: rgb(247, 208, 160);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+    gap: 2em;
+    font-size: 1.3em;
+
+    .home-redirect {
+        color: rgb(247, 208, 160);
+    }
+}
